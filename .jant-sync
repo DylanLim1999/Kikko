@@ -1,0 +1,15 @@
+{
+  "schema_version": 3,
+  "site_id": "sit_01krkkg18mextseza0sh9c6j3k",
+  "site_host": "kikko.me",
+  "created_at": 1778774927,
+  "managed_globs": [
+    "content/**",
+    "data/jant.toml",
+    "themes/jant/**",
+    "hugo.toml",
+    ".gitignore",
+    "README.md",
+    ".jant-sync"
+  ]
+}
