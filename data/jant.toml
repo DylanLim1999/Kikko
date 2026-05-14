@@ -1,18 +1,18 @@
 format = "jant-site"
 version = 1
-generated_at = "2026-05-14T16:08:46.000Z"
+generated_at = "2026-05-14T16:37:09.000Z"
 site_name = "Kikko"
 site_description = ""
 site_language = "zh-Hans"
 home_default_view = "latest"
 main_rss_feed = "featured"
 show_jant_branding_on_home = false
-show_header_avatar = false
+show_header_avatar = true
 noindex = false
-site_avatar_mode = "none"
-favicon_mode = "default"
-apple_touch_mode = "default"
-theme_id = "tufte"
+site_avatar_mode = "custom"
+favicon_mode = "custom"
+apple_touch_mode = "custom"
+theme_id = "sage"
 default_theme_id = "tufte"
 font_theme_id = "classic"
 theme_mode = "auto"
@@ -21,12 +21,21 @@ archive_page_size = 50
 rss_feed_limit = 50
 favicon_path = "/favicon.ico"
 apple_touch_icon_path = "/apple-touch-icon.png"
+site_avatar_url = "/media/sit_01krkkg18mextseza0sh9c6j3k/assets/avatar/med_01krknc4byfk2sndsdh8gm8c5c.svg"
+favicon_version = "202605141633"
 
 [[nav]]
 type = "system"
 label = "Latest"
 url = "/"
 system_key = "latest"
+placement = "header"
+
+[[nav]]
+type = "collection"
+label = "Now"
+url = "/now"
+system_key = ""
 placement = "header"
 
 [[nav]]
@@ -56,3 +65,12 @@ label = "RSS"
 url = "/featured/index.xml"
 system_key = "rss"
 placement = "more"
+
+[[directory]]
+type = "collection"
+sequence = "00"
+slug = "now"
+title = "Now"
+entry_count = 1
+recent_activity_label = "1m ago"
+recent_activity_iso = "2026-05-14T16:37:07.000Z"
