@@ -1,6 +1,6 @@
 format = "jant-site"
 version = 1
-generated_at = "2026-05-15T00:52:06.000Z"
+generated_at = "2026-05-15T02:22:11.000Z"
 site_name = "Kikko"
 site_description = ""
 site_language = "zh-Hans"
@@ -72,5 +72,5 @@ sequence = "00"
 slug = "now"
 title = "Now"
 entry_count = 2
-recent_activity_label = "1m ago"
+recent_activity_label = "1h ago"
 recent_activity_iso = "2026-05-15T00:52:05.000Z"
