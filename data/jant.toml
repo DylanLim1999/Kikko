@@ -1,6 +1,6 @@
 format = "jant-site"
 version = 1
-generated_at = "2026-05-15T02:35:19.000Z"
+generated_at = "2026-05-15T10:12:23.000Z"
 site_name = "Kikko"
 site_description = ""
 site_language = "zh-Hans"
@@ -32,17 +32,17 @@ system_key = "latest"
 placement = "header"
 
 [[nav]]
-type = "collection"
-label = "Now"
-url = "/now"
-system_key = ""
-placement = "header"
-
-[[nav]]
 type = "system"
 label = "Featured"
 url = "/featured/"
 system_key = "featured"
+placement = "header"
+
+[[nav]]
+type = "collection"
+label = "Now"
+url = "/now"
+system_key = ""
 placement = "header"
 
 [[nav]]
@@ -72,5 +72,11 @@ sequence = "00"
 slug = "now"
 title = "Now"
 entry_count = 2
-recent_activity_label = "1h ago"
+recent_activity_label = "9h ago"
 recent_activity_iso = "2026-05-15T00:52:05.000Z"
+
+[[directory]]
+type = "link"
+sequence = "01"
+label = "Posts"
+url = "/archive?format=note&hasTitle=1&visibility=public"
